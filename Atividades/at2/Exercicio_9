@@ -1,0 +1,9 @@
+from math import pi
+
+print("Calculadora de volume de esfera")
+
+raio = float(input("Insira o raio da esfera (em metros): "))
+
+volume = (4/3) * pi * raio ** 3
+
+print(f"O volume da esfera é {volume:.2f}m³")
