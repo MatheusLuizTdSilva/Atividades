@@ -18,3 +18,4 @@ def check(idade: int):
 idade = int(input("Insira sua idade: "))
 
 check(idade)
+check_idade(idade)
